@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_settings"
+        android:checkable="false"
+        android:menuCategory="container"
+
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="never" />
+    <!--
+    <item
+        android:id="@+id/Theme"
+        android:orderInCategory="100"
+        android:title="@string/Privacy"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/Calender"
+        android:orderInCategory="100"
+        android:title="@string/Calender"
+        app:showAsAction="never" />
+
+        -->
+</menu>

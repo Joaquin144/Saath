@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.saath.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_TrackAComplain"
+        android:name="com.example.saath.ui.TrackAComplain.TrackAComplain"
+        android:label="@string/Track"
+        tools:layout="@layout/track_a_complain_fragment" />
+
+    <fragment
+        android:id="@+id/nav_AntiRaggingCell"
+        android:name="com.example.saath.ui.AntiRaggingCell.AntiRaggingCell"
+        android:label="@string/ragging"
+        tools:layout="@layout/anti_ragging_cell_fragment" />
+
+    <fragment
+        android:id="@+id/nav_NewComplain"
+        android:name="com.example.saath.ui.NewComplain.NewComplain"
+        android:label="@string/New_Complain"
+        tools:layout="@layout/new_complain_fragment" />
+
+    <fragment
+        android:id="@+id/nav_MyComplains"
+        android:name="com.example.saath.ui.MyComplains.MyComplains"
+        android:label="@string/My_Complains"
+        tools:layout="@layout/my_complains_fragment" />
+
+    <fragment
+        android:id="@+id/nav_ConsultAPsychatrist"
+        android:name="com.example.saath.ui.Psychatrist.ConsultAPsychatrist"
+        android:label="@string/pagal"
+        tools:layout="@layout/consult_a_psychatrist_fragment" />
+</navigation>

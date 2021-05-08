@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_NewComplain"
+            android:icon="@drawable/ic_baseline_create_24"
+            android:title="@string/New_Complain" />
+        <item
+            android:id="@+id/nav_MyComplains"
+            android:icon="@drawable/ic_my_complains"
+            android:title="@string/My_Complains" />
+        <item
+            android:id="@+id/nav_TrackAComplain"
+            android:icon="@drawable/ic_track"
+            android:title="@string/Track" />
+        <item
+            android:id="@+id/nav_AntiRaggingCell"
+            android:icon="@drawable/ic_ragging"
+            android:title="@string/ragging" />
+        <item
+            android:id="@+id/nav_ConsultAPsychatrist"
+            android:icon="@drawable/ic_psychatrist"
+            android:title="@string/pagal" />
+
+    </group>
+
+</menu>

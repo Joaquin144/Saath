@@ -1,0 +1,38 @@
+package com.example.saath.ui.AntiRaggingCell;
+
+import androidx.lifecycle.ViewModelProvider;
+
+import android.os.Bundle;
+
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
+import androidx.fragment.app.Fragment;
+
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.ViewGroup;
+
+import com.example.saath.R;
+
+public class AntiRaggingCell extends Fragment {
+
+    private AntiRaggingCellViewModel mViewModel;
+
+    public static AntiRaggingCell newInstance() {
+        return new AntiRaggingCell();
+    }
+
+    @Override
+    public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container,
+                             @Nullable Bundle savedInstanceState) {
+        return inflater.inflate(R.layout.anti_ragging_cell_fragment, container, false);
+    }
+
+    @Override
+    public void onActivityCreated(@Nullable Bundle savedInstanceState) {
+        super.onActivityCreated(savedInstanceState);
+        mViewModel = new ViewModelProvider(this).get(AntiRaggingCellViewModel.class);
+        // TODO: Use the ViewModel
+    }
+
+}
